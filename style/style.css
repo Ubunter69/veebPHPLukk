@@ -1,89 +1,13 @@
-header{
-    background-color: lightblue ;
-    letter-spacing: 0.1cm;
-    padding: 2% ;
-    font-variant: small-caps ;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: small;
-    background-image: url("./Untitled.jpg") ;
-    background-repeat: no-repeat;
-    background-size: 150px 150px;
-}
-
-header h1{
-    margin-left: 150px ;
-}
-
-img{
-    width: 100px;
-}
-
-footer{
-    background-color: lightblue;
-    border-top:2px solid green ;
-    border-bottom: 2px solid green ;
-    border-right: 2px solid green ;
-    padding:1% ;
-    text-align: center;
-    margin-top:10px;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-section#osa1{
-    border-left: 1px double turquoise;
-    border-right: 1px double turquoise;
-    width: 50%;
-    border-radius: 30px;
-    padding: 1%;
-    text-align: center;
-}
-
-section#osa2{
-    border-left: 2px double turquoise;
-    border-right: 2px double turquoise;
-    width: 10%;
-    border-radius: 30px;
-    padding: 2%;
-    text-align: center;
-}
-
-#osa1 h2{
-    text-align: center;
-    background-color: skyblue;
-    color: Blue;
-    font-size: large;
-    font-weight: bold;
-    border-radius: 30px;
-}
-
-#osa1 div{
-    padding : 1%;
-    text-align: center;
-    background-color: skyblue;
-}
-
-#osa2 h2{
-    text-align: center;
-    background-color: skyblue;
-    color: Blue;
-    font-size: large;
-    font-weight: bold;
-    border-radius: 30px;
-}
-
 nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: skyblue;
-    overflow: hidden;
+    display: flex;
 }
 
 nav ul li{
-    float: left;
-    border-radius: 60px;
+    position: relative;
     border-left: 2px dotted skyblue;
     border-right: 2px dotted skyblue;
 }
@@ -92,8 +16,8 @@ nav ul li a{
     display: block;
     color: black;
     text-align: center;
-    padding: 10px;
-    font-variant: small-caps ;
+    padding: 10px 15px;
+    font-variant: small-caps;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
@@ -102,88 +26,35 @@ nav ul li a:hover{
     background-color: deepskyblue;
 }
 
-#teemad{
-    display: inline-block;
-    text-decoration: none;
-    float: left;
+/* DROPDOWN */
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: skyblue;
+    min-width: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    border-radius: 5px;
 }
 
-#teemad h2{
-    font-size: medium;
+.dropdown:hover .dropdown-menu{
+    display: block;
 }
 
-#lingid{
-    display: inline-block;
-    padding-left: 150px;
-}
-
-#mina{
-    font-size: x-large;
-    font-weight: bold;
-}
-
-#morph{
-    width: 50%;
-}
-
-#pilt{
-    width: 150px;
-    cursor: move;
-}
-
-#video{
-    width: 5%;
-    height: 10%;
-}
-
-#Osa3{
-    background-color: skyblue !important;
-    border: 2px solid #4682b4 !important;
-    padding: 20px !important;
-    margin: 5px 0 !important;
-    border-radius: 10px !important;
-}
-
-#Osa3 h2 {
-    background-color: #4682b4 !important;
-    color: white !important;
-    padding: 10px !important;
-    border-radius: 5px !important;
-    text-align: center !important;
-}
-
-#Osa3 input[type="button"] {
-    background-color: #4682b4 !important;
-    color: white !important;
-    border: none !important;
-    padding: 8px 16px !important;
-    margin: 5px !important;
-    border-radius: 5px !important;
-    cursor: pointer !important;
-}
-
-#Osa3 table {
+.dropdown-menu li{
     width: 100%;
-    border-collapse: collapse;
+    border: none;
 }
 
-#Osa3 th, #Osa3 td {
-    border: 1px solid #4682b4;
-    padding: 8px;
-    text-align: left;
+.dropdown-menu li a{
+    padding: 10px 15px;
 }
 
-#Osa3 th {
-    background-color: #4682b4;
-    color: white;
-}
-
-#osa1 {
-    position: relative;
-}
-
-.flex-container {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
+.dropdown-menu li a:hover{
+    background-color: deepskyblue;
 }
