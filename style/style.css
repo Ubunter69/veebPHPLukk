@@ -6,6 +6,17 @@ nav ul{
     display: flex;
 }
 
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
 nav ul li{
     position: relative;
     border-left: 2px dotted skyblue;
