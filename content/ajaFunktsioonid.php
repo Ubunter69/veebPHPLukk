@@ -54,7 +54,7 @@ s - sekundid 00...59
         echo "Massiivi abil näidata tänase kuu nimega";
         $kuud=array(1=>"jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober", "november", "detsember");
         $aasta = date("Y");
-        $kuu = $kuud[date("m")];
+        $kuu = $kuud[(int)date("m")];
         $paev = date("d");
         echo "<br>Täna on: ".$paev.". ".$kuu." ".$aasta." a.";
         ?>

@@ -9,6 +9,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="?link=ajaFunktsioonid.php" class="nav-link">Ajafunktsioonid</a></li>
                     <li><a href="?link=tekstfunktsioonid.php" class="nav-link">Tekstfunktsioonid</a></li>
+                    <li><a href="?link=matemaatikaFunktsionid.php" class="nav-link">Matemaatikafunktsioonid</a></li>
                 </ul>
             </li>
             <li><a href="https://mareklukk24.thkit.ee/" class="nav-link">vana index</a></li>
