@@ -65,7 +65,7 @@ if(file_exists($file)){
     <section>
         <h3>Mobiilne vaade</h3>
         <p>Leht kohandub automaatselt väikese ekraani laiusega. Menüü lühendatakse, tekst väiksemaks, kõik elemendid mahuvad ekraanile.</p>
-        <img src="../../image/Konsk1.png" alt="Mobiilne vaade">
+        <img src="../../pildid/MobileAnekdot.jpg" alt="Mobiilne vaade">
     </section>
 </div>
 
