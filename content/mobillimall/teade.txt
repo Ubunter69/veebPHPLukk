@@ -1,0 +1,13 @@
+Tere tulemast meie mobiilisõbralikule veebilehele!
+
+See on uus teavitus, mis demonstreerib, kuidas PHP abil saab faile lugeda ning nende sisu veebilehel korrektselt kuvada.
+
+Meie lehel on võimalik:
+
+vaadata tunniplaani päevade lõikes,
+
+lugeda anekdoote meelelahutuseks,
+
+kasutada mugavat ja mobiilseadmetele kohandatud kujundust.
+
+Soovime teile meeldivat kasutuskogemust!
