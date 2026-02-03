@@ -13,6 +13,13 @@
                     <li><a href="?link=tooFailidega.php" class="nav-link">Töö failidega</a></li>
                 </ul>
             </li>
+            <li class="dropdown">
+                <a href="?link=mobillimall/mobKonspekt.php">Mobillimall</a>
+                <ul class="dropdown-menu">
+                    <li><a href="content/mobillimall/esmaspaev.php" class="nav-link">Tunniplaan</a></li>
+                    <li><a href="content/mobillimall/anekdootileht/anekdootIndex.php" class="nav-link">Anekdootid</a></li>
+                </ul>
+            </li>
             <li><a href="https://mareklukk24.thkit.ee/" class="nav-link">vana index</a></li>
         </ul>
     </nav>
